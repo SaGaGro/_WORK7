@@ -5,7 +5,7 @@
   "homepage": "https://sagagro.github.io/_work7",
   "type": "module",
   "scripts": {
-    "perdeploy" : "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
